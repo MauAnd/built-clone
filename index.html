@@ -1,551 +1,551 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-        <meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="css/style.css">
-		<script type="text/javascript" src="js/jquery-3.6.3.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
-		<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-		<script type="text/javascript" src="js/script.js" defer></script>
-		<title>Built Clone</title>
-	</head>
-	<body>
-		<header class="main-header">
-            <div class="logo">
-				<a href="#">
-					<svg width="50" height="20" viewBox="0 0 50 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Built logo">
-						<path d="M28.805 5.96238H33.0514V19.6426H28.805V5.96238ZM34.8696 19.6426H39.1149V0.0203233H34.8696V19.6426ZM40.9876 0.0203233V19.6426H45.2329V10.2383H49.6V5.96238H45.2329V0.0203233H40.9876ZM22.7419 14.0246C22.7419 14.2271 22.7023 14.4276 22.6254 14.6146C22.5484 14.8017 22.4356 14.9717 22.2935 15.1149C22.1513 15.258 21.9825 15.3716 21.7967 15.4491C21.611 15.5266 21.4119 15.5665 21.2108 15.5665C21.0097 15.5665 20.8106 15.5266 20.6249 15.4491C20.4391 15.3716 20.2703 15.258 20.1281 15.1149C19.986 14.9717 19.8732 14.8017 19.7962 14.6146C19.7193 14.4276 19.6797 14.2271 19.6797 14.0246V5.96238H15.2779V14.0246C15.2779 17.3196 17.9392 20 21.2104 20C24.4817 20 27.1433 17.3196 27.1433 14.0246V5.96238H22.7419V14.0246ZM7.99251 15.2095C8.19563 15.2127 8.39736 15.1752 8.58596 15.0991C8.77455 15.0231 8.94623 14.91 9.09101 14.7665C9.23578 14.623 9.35076 14.4519 9.42924 14.2632C9.50772 14.0745 9.54814 13.872 9.54814 13.6674C9.54814 13.4628 9.50772 13.2603 9.42924 13.0716C9.35076 12.8829 9.23578 12.7118 9.09101 12.5683C8.94623 12.4248 8.77455 12.3117 8.58596 12.2356C8.39736 12.1596 8.19563 12.1221 7.99251 12.1253H4.24566V15.2095H7.99251ZM9.52399 5.97542C9.52349 5.56654 9.36197 5.17455 9.07487 4.88543C8.78777 4.59631 8.39853 4.43366 7.99251 4.43315H4.24566V7.51807H7.99251C8.39856 7.51746 8.78781 7.35472 9.0749 7.06554C9.36199 6.77636 9.52349 6.38433 9.52399 5.97542ZM0 19.6426V0.0203233L7.99251 0C11.2638 0 13.9254 2.68037 13.9254 5.97542C13.9265 7.3837 13.4311 8.74665 12.5276 9.8215C13.4317 10.896 13.9276 12.2588 13.9269 13.6672C13.9269 16.9626 11.2653 19.6426 7.99403 19.6426H0ZM30.9278 0.0203233C30.508 0.0204749 30.0976 0.145992 29.7486 0.381003C29.3996 0.616014 29.1277 0.949965 28.9671 1.34063C28.8066 1.73129 28.7647 2.16112 28.8467 2.57577C28.9287 2.99042 29.131 3.37126 29.4279 3.67014C29.7249 3.96902 30.1032 4.17252 30.515 4.2549C30.9268 4.33728 31.3536 4.29485 31.7414 4.13296C32.1293 3.97108 32.4607 3.69701 32.6939 3.34543C32.9271 2.99384 33.0515 2.58051 33.0514 2.15772C33.0514 1.87695 32.9964 1.59894 32.8897 1.33957C32.7829 1.08019 32.6265 0.844537 32.4293 0.646057C32.2321 0.447576 31.998 0.290159 31.7404 0.182795C31.4827 0.0754307 31.2066 0.0202225 30.9278 0.0203233Z"/>
-					</svg>
-				</a>
-			</div>
-			<nav class="main-nav">
-				<ul class="main-menu type-m">
-					<li><a href="#">About us</a></li>
-					<li><a href="#">Capabilities</a></li>
-					<li><a href="#">Projects</a></li>
-					<li><a href="#">Sustainability &#038;Social Impact</a></li>
-					<li><a href="#">Innovation</a></li>
-					<li class="has-submenu"><a href="#">Careers</a>
-						<ul class="sub-menu">
-							<li id="nav-builtworthy">
-								<a href="#">Built Worthy</a>
-							</li>
-							<li id="nav-graduatesandcadets">
-								<a href="#">Graduates and Cadets</a>
-							</li>
-							<li id="nav-jobopportunities">
-								<a href="#">Job Opportunities</a>
-							</li>
-						</ul>
-					</li>
-					<li><a href="#">Latest Thinking</a></li>
-				</ul>
-				<div class="subscribe-btn">
-					<a href="#" class="button">Subscribe</a>
-				</div>
-				<div class="social-nav">
-					<a class="social-link" href="#">
-						<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Twitter icon">
-							<path fill-rule="evenodd" clip-rule="evenodd" d="M5.39776 14C10.6807 14 13.5714 9.38189 13.5714 5.38386C13.5714 5.25394 13.5714 5.12402 13.5658 4.99409C14.126 4.5689 14.6134 4.0315 15 3.42323C14.4846 3.66535 13.93 3.8248 13.3473 3.90157C13.9412 3.52953 14.395 2.93307 14.6134 2.22441C14.0588 2.57283 13.4426 2.82087 12.7871 2.95669C12.2605 2.36614 11.5154 2 10.6919 2C9.10644 2 7.81793 3.35827 7.81793 5.02953C7.81793 5.26575 7.84594 5.49606 7.89076 5.72047C5.5042 5.59646 3.38655 4.38583 1.96919 2.55512C1.72269 3.00394 1.58263 3.52362 1.58263 4.07874C1.58263 5.12992 2.09244 6.05709 2.85994 6.60039C2.38936 6.58268 1.94678 6.44685 1.56022 6.22244C1.56022 6.23425 1.56022 6.24606 1.56022 6.26378C1.56022 7.72835 2.55182 8.95669 3.86274 9.23425C3.62185 9.30512 3.36975 9.34055 3.10644 9.34055C2.92157 9.34055 2.7423 9.32283 2.56863 9.2874C2.93277 10.4921 3.9972 11.3661 5.2521 11.3898C4.26611 12.2047 3.02801 12.689 1.68347 12.689C1.45378 12.689 1.22409 12.6772 1 12.6476C2.26611 13.498 3.77871 14 5.39776 14Z" fill="black"/>
-						</svg>
-					</a>
-					<a class="social-link" href="#">
-						<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Linkedin icon">
-							<path fill-rule="evenodd" clip-rule="evenodd" d="M13.6348 13.6337H11.2622V9.91989C11.2622 9.03455 11.2462 7.89589 10.0283 7.89589C8.7945 7.89589 8.60605 8.86122 8.60605 9.85678V13.6337H6.23525V5.99811H8.50915V7.04167H8.54204C8.85939 6.44167 9.63277 5.80878 10.7875 5.80878C13.1912 5.80878 13.6348 7.38922 13.6348 9.44611V13.6337ZM3.55949 4.95552C2.79679 4.95552 2.18164 4.33864 2.18164 3.57864C2.18164 2.81953 2.79679 2.20264 3.55949 2.20264C4.31776 2.20264 4.93468 2.81953 4.93468 3.57864C4.93468 4.33864 4.31776 4.95552 3.55949 4.95552ZM2.37015 13.6337H4.74628V5.99816H2.37015V13.6337Z" fill="black"/>
-						</svg>
-					</a>
-					<a class="social-link" href="#">
-						<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Instagram icon">
-							<path fill-rule="evenodd" clip-rule="evenodd" d="M5.52281 2.03099C6.16305 2.00178 6.36746 1.99487 7.99766 1.99487C9.62784 1.99487 9.83225 2.00178 10.4725 2.03099C11.1114 2.06014 11.5477 2.16161 11.9295 2.31001C12.3243 2.46338 12.659 2.66863 12.9927 3.00233C13.3264 3.33605 13.5317 3.6708 13.6851 4.06552C13.8334 4.44732 13.9349 4.88367 13.9641 5.52257C13.9933 6.1628 14.0002 6.36721 14.0002 7.99742C14.0002 9.62759 13.9933 9.83201 13.9641 10.4722C13.9349 11.1111 13.8334 11.5475 13.6851 11.9293C13.5317 12.324 13.3264 12.6588 12.9927 12.9925C12.659 13.3262 12.3243 13.5314 11.9295 13.6848C11.5477 13.8332 11.1114 13.9347 10.4725 13.9638C9.83225 13.993 9.62784 13.9999 7.99766 13.9999C6.36746 13.9999 6.16305 13.993 5.52281 13.9638C4.88391 13.9347 4.44757 13.8332 4.06576 13.6848C3.67104 13.5314 3.3363 13.3262 3.00257 12.9925C2.66888 12.6588 2.46363 12.324 2.31025 11.9293C2.16186 11.5475 2.06038 11.1111 2.03124 10.4722C2.00203 9.83201 1.99512 9.62759 1.99512 7.99742C1.99512 6.36721 2.00203 6.1628 2.03124 5.52257C2.06038 4.88367 2.16186 4.44732 2.31025 4.06552C2.46363 3.6708 2.66888 3.33605 3.00257 3.00233C3.3363 2.66863 3.67104 2.46338 4.06576 2.31001C4.44757 2.16161 4.88391 2.06014 5.52281 2.03099ZM11.5376 3.31816C11.3261 3.23596 11.0083 3.13817 10.4231 3.11149C9.79012 3.08261 9.60026 3.07649 7.99754 3.07649C6.39478 3.07649 6.20493 3.08261 5.57199 3.11149C4.98675 3.13817 4.66892 3.23596 4.4574 3.31816C4.17722 3.42705 3.97726 3.55713 3.76723 3.76719C3.55717 3.97722 3.4271 4.17718 3.31821 4.45736C3.236 4.66887 3.13822 4.9867 3.11153 5.57194C3.08265 6.20489 3.07653 6.39474 3.07653 7.99749C3.07653 9.60022 3.08265 9.79008 3.11153 10.423C3.13822 11.0083 3.236 11.3261 3.31821 11.5376C3.4271 11.8178 3.55719 12.0177 3.76723 12.2278C3.97726 12.4378 4.17722 12.5679 4.4574 12.6768C4.66892 12.759 4.98675 12.8568 5.57199 12.8835C6.20486 12.9124 6.39466 12.9185 7.99754 12.9185C9.60038 12.9185 9.79021 12.9124 10.4231 12.8835C11.0083 12.8568 11.3261 12.759 11.5376 12.6768C11.8178 12.5679 12.0178 12.4378 12.2278 12.2278C12.4379 12.0177 12.568 11.8178 12.6768 11.5376C12.759 11.3261 12.8568 11.0083 12.8835 10.423C12.9124 9.79008 12.9185 9.60022 12.9185 7.99749C12.9185 6.39474 12.9124 6.20489 12.8835 5.57194C12.8568 4.9867 12.759 4.66887 12.6768 4.45736C12.568 4.17718 12.4379 3.97722 12.2278 3.76719C12.0178 3.55713 11.8178 3.42705 11.5376 3.31816ZM7.9981 4.91506C6.29572 4.91506 4.91571 6.29508 4.91571 7.99745C4.91571 9.6998 6.29572 11.0798 7.9981 11.0798C9.70045 11.0798 11.0805 9.6998 11.0805 7.99745C11.0805 6.29508 9.70045 4.91506 7.9981 4.91506ZM5.99705 7.99746C5.99705 9.10249 6.89286 9.99829 7.99791 9.99829C9.10294 9.99829 9.99874 9.10249 9.99874 7.99746C9.99874 6.89241 9.10294 5.99661 7.99791 5.99661C6.89286 5.99661 5.99705 6.89241 5.99705 7.99746ZM11.202 5.51345C11.5998 5.51345 11.9223 5.19098 11.9223 4.79316C11.9223 4.39535 11.5998 4.07285 11.202 4.07285C10.8042 4.07285 10.4817 4.39535 10.4817 4.79316C10.4817 5.19098 10.8042 5.51345 11.202 5.51345Z" fill="black"/>
-						</svg>
-					</a>
-					<a class="social-link" href="#">
-						<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Facebook icon">
-							<path fill-rule="evenodd" clip-rule="evenodd" d="M13.3379 2H2.66207C2.29642 2 2 2.29642 2 2.66207V13.3379C2 13.7036 2.29642 14 2.66207 14H8.41379V9.35931H6.85172V7.54276H8.41379V6.20621C8.41379 4.65655 9.36138 3.81241 10.7434 3.81241C11.2092 3.8114 11.6747 3.83488 12.1379 3.88276V5.50276H11.1862C10.4331 5.50276 10.2862 5.85862 10.2862 6.38414V7.54069H12.0862L11.8524 9.35724H10.2759V14H13.3379C13.7036 14 14 13.7036 14 13.3379V2.66207C14 2.29642 13.7036 2 13.3379 2Z" fill="black"/>
-						</svg>
-					</a>
-				</div>
-			</nav>
-			<button type="button" class="search-btn">
-				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<circle cx="10.5" cy="10.5" r="6" stroke="black"/>
-					<path d="M14.5 15L19.5 19.5" stroke="black"/>
-				</svg>
-			</button>
-			<div class="burger-wrapper">
-				<button type="" id="burger-btn">
-					<span></span>
-					<span></span>
-					<span></span>
-				</button>
-			</div>
-			<div id="header-progress"></div> 
-		</header>
-		<form action="#" method="GET" class="search-form">
-			<input type="text" name="s" placeholder="What are you looking for?" class="search-form__field" value="">
-			<button type="button" class="search-form__close-btn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Close icon" class="search-form__close-svg"><path d="M5 5L19.2128 19.2128"></path><path d="M19.2129 5L5.00004 19.2128"></path></svg>
-			</button>
-		</form>
-		<main class="main-content">
-			<section class="hero">
-				<ul class="slider media-carousel">
-					<li class="slider-slide media-carousel__item">
-						<div class="slide-text">
-							<h1 class="title">THE NEW WAY FORWARD:<br>
-								ATLASSIAN</h1>
-							<a href="https://www.built.com.au/news/built-obayashi-begin-construction-on-landmark-atlassian-central/" class="hero-cta text-link">
-								<span>Learn more</span> 
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-icon"><path d="M10 6L16 12L10 18"></path></svg>
-							</a>
-						</div>
-						<video class="hero-video tablet-portrait-hide" autoplay="" muted="" loop="" playsinline="" data-src="https://www.built.com.au/app/uploads/2022/08/Atlassian-Flythrough_Website-Banner_35Opacity.mp4" src="https://www.built.com.au/app/uploads/2022/08/Atlassian-Flythrough_Website-Banner_35Opacity.mp4"></video>
-						<video class="hero-video tablet-portrait-show" autoplay="" muted="" loop="" playsinline="" data-src="https://www.built.com.au/app/uploads/2022/08/Atlassian-Flythrough_Website-Banner_35Opacity.mp4" src="https://www.built.com.au/app/uploads/2022/08/Atlassian-Flythrough_Website-Banner_35Opacity.mp4"></video>
-					</li>
-					<li class="slider-slide media-carousel__item">
-						<div class="slide-text">
-							<h1 class="title">THE STEP IS THE MOON:<br>
-								ATLASSIAN</h1>
-							<a href="https://www.built.com.au/news/built-obayashi-begin-construction-on-landmark-atlassian-central/" class="hero-cta text-link">
-								<span>Learn more</span> 
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-icon"><path d="M10 6L16 12L10 18"></path></svg>
-							</a>
-						</div>
-						<video class="hero-video tablet-portrait-hide" autoplay="" muted="" loop="" playsinline="" data-src="https://www.built.com.au/app/uploads/2021/07/m3327_Woods-Bagot_NAB-3-Parramatta-Square-Lift-Timelapse.mp4" src="https://www.built.com.au/app/uploads/2021/07/m3327_Woods-Bagot_NAB-3-Parramatta-Square-Lift-Timelapse.mp4"></video>
-						<video class="hero-video tablet-portrait-show" autoplay="" muted="" loop="" playsinline="" data-src="https://www.built.com.au/app/uploads/2021/08/m3327_Woods-Bagot_NAB-3-Parramatta-Square-Lift-Timelapse_Portrait_O-1.mp4" src="https://www.built.com.au/app/uploads/2021/08/m3327_Woods-Bagot_NAB-3-Parramatta-Square-Lift-Timelapse_Portrait_O-1.mp4"></video>
-					</li>
-				</ul>
-				<div class="hero-nav">
-					<div class="container-nav">
-						<button type="button" class="hero-nav-btn hero-nav-btn-prev">
-							<svg width="46" height="20" viewBox="0 0 46 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Arrow left" class="hero-nav-btn-icon">
-								<path d="M46 10.0005L1.66157 10.0005"></path>
-								<path d="M9.11421 19L0.999899 10L9.11421 0.999999"></path>
-							</svg>
-						</button>
-						<button type="button" class="hero-nav-btn hero-nav-btn-next">
-							<svg width="46" height="20" viewBox="0 0 46 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Arrow right" class="hero-nav-btn-icon">
-								<path d="M0 10.0005L44.3384 10.0005"></path>
-								<path d="M36.8858 1L45.0001 10L36.8858 19"></path>
-							</svg>
-						</button>
-						<span class="hero-nav-numbers type-sm type-bold type-white">
-							<span class="hero-nav-current">
-								1
-							</span> 
-							of 2
-						</span>
-					</div>
-				</div>
-				<div class="hero-art">
-					<div class="type-white">
-						<h2 class="type-sm type-bold">LATEST NEWS</h2>
-						<ul class="article-slider">
-							<li class="single-article">
-								<p>
-								<a href="#">Digital Engineering (DE) has the potential to transform the construction industry. Projects of all sizes and across all sectors can benefit from applying DE principles and tools.</a>
-								</p>
-							</li>
-							<li class="single-article">
-								<p>
-								<a href="#">Transitioning to a Circular Economy is a crucial next step to create a sustainable future for our planet.</a>
-								</p>
-							</li>
-							<li class="single-article">
-								<p>
-								<a href="#">Built is proud to be the foundation sponsor of ReLove, a registered charity supporting women and children impacted by domestic violence, people experiencing homelessness, Aboriginal and Torres Strait Islander youth and people seeking asylum.</a>
-								</p>
-							</li>
-						</ul>
-					</div>
-					<div class="hero-art-nav">
-						<button type="button" class="hero-art-nav-btn hero-art-btn-prev">
-							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Chevron left" class="hero-art-btn-icon"><path d="M14 18L8 12L14 6"></path></svg>
-						</button>
-						<button type="button" class="hero-art-nav-btn hero-art-btn-next">
-							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Chevron right" class="hero-art-btn-icon"><path d="M10 6L16 12L10 18"></path></svg>
-						</button>
-					</div>
-				</div>
-			</section>
-			<section class="bg-white section-about">
-				<div class="section-about-title content">
-					<h2 class="type-chronicle">
-						<u>The New</u>&nbsp;Way Forward
-					</h2>
-				</div>
-				<div class="section-about-text">
-					<p>The scale &amp; certainty of a tier one construction company, with the culture &amp; agility to stay ahead of change.</p>
-					<a href="#" class="text-link text-link-bold">
-						<span>About us</span> 
-						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Chevron right icon" class="text-link-icon"><path d="M10 6L16 12L10 18"></path></svg>
-					</a>
-				</div>
-			</section>
-			<section class="section-media">
-				<div class="btn-container-relative">
-					<button type="button" class="section-media-video-btn">
-						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Play icon" class="section-media-video-btn-svg"><path d="M22.1543 12L5.53891 22.3923L5.53891 1.60769L22.1543 12Z"></path></svg>
-					</button>
-				</div>
-				<div class="section-media-container">
-					<video class="section-media-video" autoplay="" muted="" loop="" playsinline="" data-src="https://www.built.com.au/app/uploads/2021/09/Built_TheNewWayForward_WebLoop.mp4" src="https://www.built.com.au/app/uploads/2021/09/Built_TheNewWayForward_WebLoop.mp4"></video>
-				</div>
-				<div class="overlay overlay-video">
-					<div class="overlay-wrap">
-						<button type="button" class="overlay-close"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Close icon" class="overlay-close-icon"><path d="M5 5L19.2128 19.2128"></path><path d="M19.2129 5L5.00004 19.2128"></path></svg>
-						</button>
-						<div class="js-reframe" style="position: relative; width: 100%; padding-top: 56.25%;"><iframe data-src="https://player.vimeo.com/video/746405929" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px;"></iframe>
-						</div>
-					</div>
-			</section>
-			<section class="section-about-us section-highlight">
-				<div class="grid section-heading-rotate">
-					<div class="col sm-col-6 lg-col-12 sm-pd-btm-05 lg-pd-btm-3">
-						<div class="btn-pill type-bold">About Us</div>
-					</div>
-					<div class="col sm-col-6 sm-pd-btm-05 heading-wrap">
-						<h3 class="type-p type-bold">New Way Forward</h3>
-					</div>
-					<div class="col grid-img-1">
-						<div class="lazy-container">
-							<div class="img-wrap">
-								<img class="" src="https://www.built.com.au/app/uploads/2021/07/300309_N175_medium-1200x801.jpeg">
-							</div>
-						</div>
-					</div>
-					<div class="col grid-img-2">
-						<div class="lazy-container">
-							<div class="img-wrap">
-								<img class="" src="https://www.built.com.au/app/uploads/2021/12/GPO_BHP_Stairs-1200x800.jpg">
-							</div>
-						</div>
-					</div>
-					<div class="col sm-col-6 lg-col-10 lg-col-offset-1 highlight-wrap">
-						<h2 class="type-h2">Our industry is critical to how 
-							<strong class="text-highlight">
-								<span class="text-highlight-bg"></span>
-								<span class="text-highlight-text">cities evolve,</span>
-							</strong> so as a business we have a responsibility to consider the 
-							<strong class="text-highlight">
-								<span class="text-highlight-bg"></span>
-								<span class="text-highlight-text"">impact of everything we build.</span>
-							</strong>
-						</h2>
-					</div>
-					<div class="col grid-img-3">
-						<div class="lazy-container">
-							<div class="img-wrap">
-								<img class="" src="https://www.built.com.au/app/uploads/2021/07/SubStationNo164_Facade1_2249x1500-1200x800.jpg">
-							</div>
-						</div>    
-					</div>
-				</div>
-			</section>
-			<section class="section-scroll-container1">
-				<div class="section-scroll">
-					<div class="section-scroll-element">
-						<h2 class="scroll-flex type-white">
-							<span class="type-chronicle section-scroll-element-fixed">To:</span>
-							<ul class="section-scroll-element-dynamic-wrapper1">
-								<li class="section-scroll-element-dynamic1">
-									<span class="type-medium type-orange section-scroll-element-dynamic-word">think harder</span>
-								</li>
-								<li class="section-scroll-element-dynamic1">
-									<span class="type-medium type-orange section-scroll-element-dynamic-word">act smarter</span>
-								</li>
-								<li class="section-scroll-element-dynamic1">
-									<span class="type-medium type-orange section-scroll-element-dynamic-word">do more</span>
-								</li>
-							</ul>
-						</h2>
-						<span class="scroll-indicator section-scroll-indicator type-white type-bold type-sm">SCROLL</span>
-					</div>
-				</div>
-			</section>
-			<section class="section-dna section-highlight">
-				<div class="grid section-heading-rotate">
-					<div class="col sm-col-6 sm-pd-btm-05 heading-wrap second-img-grid">
-						<h3 class="type-p type-bold">New Way Forward</h3>
-					</div>
-					<div class="col grid-img-1">
-						<div class="lazy-container">
-							<div class="img-wrap">
-								<img class="" src="https://www.built.com.au/app/uploads/2022/08/TMP_ATLSN_N4-1200x1060.jpg">
-							</div>
-						</div>
-					</div>
-					<div class="col grid-img-4">
-						<div class="lazy-container">
-							<div class="img-wrap">
-								<img class="" src="https://www.built.com.au/app/uploads/2022/06/BrandPhotography_100522_01973-1200x800.jpg">
-							</div>
-						</div>
-					</div>
-					<div class="col sm-col-6 lg-col-8 lg-col-offset-1 highlight-wrap">
-						<h2 class="type-h2">That’s why we never stop pushing ourselves.
-							<strong class="text-highlight">
-								<span class="text-highlight-bg"></span>
-								<span class="text-highlight-text">It's in our DNA.</span>
-							</strong>
-						</h2>
-					</div>
-					<div class="col grid-img-3 img-6">
-						<div class="lazy-container">
-							<div class="img-wrap">
-								<img class="" src="https://www.built.com.au/app/uploads/2021/10/BrandPhotography_NSW_Tim_Joel_4PS_4000x2667-1200x800.jpg">
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="section-capabilities">
-				<div class="grid">
-					<div class="col sm-col-6 lg-col-12 sm-pd-btm-1">
-						<div class="btn-pill type-bold">Capabilities</div>
-					</div>
-					<div class="col sm-col-6 sm-pd-btm-1">
-						<h3 class="type-p type-normal">The New Way Forward</h3>
-					</div>
-					<div class="col sm-col-6 lg-col-5 lg-col-start-8">
-						<hr class="mb-15">
-						<h3 class="type-chronicle mb-15">
-							At Built, we treat every project as an opportunity to roll up our sleeves, to solve complex challenges and get the job done.
-						</h3>
-						<p class="type-p mb-15">
-						Because when you work with us, you work with a group of leaders on a mission to improve the way the world is built.
-						</p>
-						<a href="#" class="text-link text-link-bold">
-							<span>Capabilities</span> 
-							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Chevron right icon" class="text-link-icon"><path d="M10 6L16 12L10 18"></path></svg>
-						</a>
-					</div>
-				</div>
-			</section>
-			<section class="section-scroll-container2">
-				<div class="section-scroll">
-					<div class="section-scroll-element">
-						<h2 class=" type-white">
-							<span class="type-chronicle section-scroll-element-fixed">To:</span>
-							<ul class="section-scroll-element-dynamic-wrapper2 word2">
-								<li class="section-scroll-element-dynamic2">
-									<span class="type-medium type-orange section-scroll-element-dynamic-word">advance the industry forward.</span>
-								</li>
-								<li class="section-scroll-element-dynamic2">
-									<span class="type-medium type-orange section-scroll-element-dynamic-word">create foundations for the future.</span>
-								</li>
-								<li class="section-scroll-element-dynamic2">
-									<span class="type-medium type-orange section-scroll-element-dynamic-word">forge new pathways.</span>
-								</li>
-							</ul>
-						</h2>
-						<span class="scroll-indicator section-scroll-indicator type-white type-bold type-sm">SCROLL</span>
-					</div>
-				</div>
-			</section>
-			<section class="section-projects">
-				<div class="grid">
-					<div class="col sm-col-6 lg-col-12 lg-pd-btm-15 sm-pd-btm-1">
-						<div class="btn-pill type-bold">Project case studio</div>
-					</div>
-					<div class="col sm-col-6 lg-col-5 content">
-						<h2 class="type-chronicle mb-15">
-							<u>Projects that push</u>
-							the world forward
-						</h2>
-						<p class="type-p">
-						Explore the 
-						<strong>
-							<a href="#">latest</a>
-						</strong>
-						from the Built team.
-						</p>
-					</div>
-					<div class="col sm-col-6 lg-col-5 lg-col-start-8 sm-pd-top-10">
-						<div class="content">
-							<p class="type-p">
-							From the moment we started, in every market we’ve entered, in every job we’ve undertaken, we’ve aimed to disrupt industry norms by continually being better every day.
-							</p>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="section-media-full">
-				<h4 class="title-over-video sm-mb-5 lg-mb-10"><a href="https://www.built.com.au/news/dismantling-the-smoke-and-mirrors-around-digital-engineering/" class="type-white underline">Read The Report</a></h4>
-				<div class="section-media-full-video-container">
-					<video class="section-media-full-video tablet-portrait-hide" autoplay="" muted="" loop="" playsinline="" data-src="https://www.built.com.au/app/uploads/2022/09/Digital-Engineering-Animation_Horizontal-1.mp4" src="https://www.built.com.au/app/uploads/2022/09/Digital-Engineering-Animation_Horizontal-1.mp4"></video>
-					<video class="section-media-full-video tablet-portrait-show" autoplay="" muted="" loop="" playsinline="" data-src="https://www.built.com.au/app/uploads/2022/09/Digital-Engineering-Animation_Portrait-1.mp4" src="https://www.built.com.au/app/uploads/2022/09/Digital-Engineering-Animation_Portrait-1.mp4"></video>
-				</div>
-			</section>
-			<section class="section-case-studies">
-				<div class="grid">
-					<div class="col sm-col-6 lg-col-12 grid-in-grid">
-						<p class="type-p sm-mb-3 tablet-portrait-show col sm-col-6">
-						Our industry is critical to how cities evolve, so as a business we have a responsibility to consider the impact of everything we touch.
-						</p>
-						<a href="#" class="img-hover-hidden display-block sm-col-6 col lg-col-6">
-							<img class="img-hover" src="https://www.built.com.au/app/uploads/2021/07/Atlassian_Street-View-Render-1146x1200.jpg">
-						</a>
-						<div class="sm-mt-05 tablet-portrait-show col sm-col-6">
-							<span class="type-sm type-grey-3 type-h6 type-bold sm-mt-05">NSW</span>
-							<h3 class="type-bold type-h6">
-								<a href="#">Atlassian Central</a>
-							</h3>
-							<ul class="section-case-studies-tags">
-								<li class="section-case-studies-tag">
-									<a href="#" class="pill pill-link pill-slim type-sm type-bold">Construction</a>
-								</li>
-								<li class="section-case-studies-tag">
-									<a href="#" class="pill pill-link pill-slim type-sm type-bold">Commercial</a>
-								</li>
-							</ul>
-							<a href="#" class="display-ib sm-mg-top-1">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Arrow right" class="section-case-studies-cta">
-									<path d="M2.18164 11.4546L22.2816 11.4546"></path>
-									<path d="M16.2197 5.45459L22.2197 11.4546L16.2197 17.4546"></path>
-								</svg>
-							</a>
-						</div>
-						<div class="col tablet-portrait-hide lg-col-4 col-flex">
-							<p class="type-p">
-							Our industry is critical to how cities evolve, so as a business we have a responsibility to consider the impact of everything we touch.
-							</p>
-							<div class="sm-mt-05">
-								<span class="type-sm type-grey-3 type-h6 type-bold sm-mt-05">NSW</span>
-								<h3 class="type-bold type-h6">
-									<a href="#">Atlassian Central</a>
-								</h3>
-								<ul class="section-case-studies-tags">
-									<li class="section-case-studies-tag">
-										<a href="#" class="pill pill-link pill-slim type-sm type-bold">Construction</a>
-									</li>
-									<li class="section-case-studies-tag">
-										<a href="#" class="pill pill-link pill-slim type-sm type-bold">Commercial</a>
-									</li>
-								</ul>
-								<a href="#" class="display-ib sm-mg-top-1 lg-mg-btm-25 pill-img">
-									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Arrow right" class="section-case-studies-cta">
-										<path d="M2.18164 11.4546L22.2816 11.4546"></path>
-										<path d="M16.2197 5.45459L22.2197 11.4546L16.2197 17.4546"></path>
-									</svg>
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="col sm-col-6 sm-pd-top-15 lg-col-3">
-						<a href="#" class="img-hover-hidden display-block">
-							<img class="img-hover" src="https://www.built.com.au/app/uploads/2021/12/210914_BUILT_185Clarence_0604-960x1200.jpg">
-						</a>
-						<div class="sm-mt-05">
-							<span class="type-sm type-grey-3 type-h6 type-bold sm-mt-05">NSW</span>
-							<h3 class="type-bold type-h6">
-								<a href="#">Atlassian Central</a>
-							</h3>
-							<ul class="section-case-studies-tags">
-								<li class="section-case-studies-tag">
-									<a href="#" class="pill pill-link pill-slim type-sm type-bold">Construction</a>
-								</li>
-								<li class="section-case-studies-tag">
-									<a href="#" class="pill pill-link pill-slim type-sm type-bold">Development</a>
-								</li>
-								<li class="section-case-studies-tag">
-									<a href="#" class="pill pill-link pill-slim type-sm type-bold">Refurbishment</a>
-								</li>
-								<li class="section-case-studies-tag">
-									<a href="#" class="pill pill-link pill-slim type-sm type-bold">Small Works</a>
-								</li>
-								<li class="section-case-studies-tag">
-									<a href="#" class="pill pill-link pill-slim type-sm type-bold">Commercial</a>
-								</li>
-							</ul>
-							<a href="#" class="display-ib sm-mg-top-1">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Arrow right" class="section-case-studies-cta">
-									<path d="M2.18164 11.4546L22.2816 11.4546"></path>
-									<path d="M16.2197 5.45459L22.2197 11.4546L16.2197 17.4546"></path>
-								</svg>
-							</a>
-						</div>
-					</div>
-					<div class="col sm-col-6 sm-pd-top-15 lg-col-6 lg-col-offset-6">
-						<a href="#" class="img-hover-hidden display-block">
-							<img class="img-hover" src="https://www.built.com.au/app/uploads/2021/06/60CremorneSt_1-1200x900.jpg">
-						</a>
-						<div class="sm-mt-05">
-							<span class="type-sm type-grey-3 type-h6 type-bold sm-mt-05">NSW</span>
-							<h3 class="type-bold type-h6">
-								<a href="#">Atlassian Central</a>
-							</h3>
-							<ul class="section-case-studies-tags">
-								<li class="section-case-studies-tag">
-									<a href="#" class="pill pill-link pill-slim type-sm type-bold">Construction</a>
-								</li>
-								<li class="section-case-studies-tag">
-									<a href="#" class="pill pill-link pill-slim type-sm type-bold">Commercial</a>
-								</li>
-							</ul>
-							<a href="#" class="display-ib sm-mg-top-1">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Arrow right" class="section-case-studies-cta">
-									<path d="M2.18164 11.4546L22.2816 11.4546"></path>
-									<path d="M16.2197 5.45459L22.2197 11.4546L16.2197 17.4546"></path>
-								</svg>
-							</a>
-						</div>
-					</div>
-					<div class="col sm-col-6 sm-pd-top-15 lg-col-6">
-						<a href="#" class="img-hover-hidden display-block">
-							<img class="img-hover" src="https://www.built.com.au/app/uploads/2022/09/68-Parramatta-Square_PC_11-1200x899.jpg">
-						</a>
-						<div class="sm-mt-05">
-							<span class="type-sm type-grey-3 type-h6 type-bold sm-mt-05">NSW</span>
-							<h3 class="type-bold type-h6">
-								<a href="#">Atlassian Central</a>
-							</h3>
-							<ul class="section-case-studies-tags">
-								<li class="section-case-studies-tag">
-									<a href="#" class="pill pill-link pill-slim type-sm type-bold">Construction</a>
-								</li>
-								<li class="section-case-studies-tag">
-									<a href="#" class="pill pill-link pill-slim type-sm type-bold">Commercial</a>
-								</li>
-							</ul>
-							<a href="#" class="display-ib sm-mg-top-1">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Arrow right" class="section-case-studies-cta">
-									<path d="M2.18164 11.4546L22.2816 11.4546"></path>
-									<path d="M16.2197 5.45459L22.2197 11.4546L16.2197 17.4546"></path>
-								</svg>
-							</a>
-						</div>
-					</div>
-					<div class="col sm-col-6 sm-pd-top-15 lg-col-3 lg-col-offset-9">
-						<a href="#" class="img-hover-hidden display-block">
-							<img class="img-hover" src="https://www.built.com.au/app/uploads/2021/07/SLV_QueensHall_2-800x1200.jpg">
-						</a>
-						<div class="sm-mt-05">
-							<span class="type-sm type-grey-3 type-h6 type-bold sm-mt-05">NSW</span>
-							<h3 class="type-bold type-h6">
-								<a href="#">Atlassian Central</a>
-							</h3>
-							<ul class="section-case-studies-tags">
-								<li class="section-case-studies-tag">
-									<a href="#" class="pill pill-link pill-slim type-sm type-bold">Fitout</a>
-								</li>
-								<li class="section-case-studies-tag">
-									<a href="#" class="pill pill-link pill-slim type-sm type-bold">Refurbishment</a>
-								</li>
-							</ul>
-							<a href="#" class="display-ib sm-mg-top-1">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Arrow right" class="section-case-studies-cta">
-									<path d="M2.18164 11.4546L22.2816 11.4546"></path>
-									<path d="M16.2197 5.45459L22.2197 11.4546L16.2197 17.4546"></path>
-								</svg>
-							</a>
-						</div>
-					</div>
-					<div class="col sm-col-6 sm-pd-top-15 lg-col-12 grid-in-grid">
-						<a href="#" class="img-hover-hidden display-block grid-order-2 col sm-col-6 lg-col-6">
-			<img class="img-hover" src="https://www.built.com.au/app/uploads/2021/07/700111_N103_medium-1200x803.jpeg">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/script.js" defer></script>
+    <title>Built Clone</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <a href="#">
+                <svg width="50" height="20" viewBox="0 0 50 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Built logo">
+                    <path d="M28.805 5.96238H33.0514V19.6426H28.805V5.96238ZM34.8696 19.6426H39.1149V0.0203233H34.8696V19.6426ZM40.9876 0.0203233V19.6426H45.2329V10.2383H49.6V5.96238H45.2329V0.0203233H40.9876ZM22.7419 14.0246C22.7419 14.2271 22.7023 14.4276 22.6254 14.6146C22.5484 14.8017 22.4356 14.9717 22.2935 15.1149C22.1513 15.258 21.9825 15.3716 21.7967 15.4491C21.611 15.5266 21.4119 15.5665 21.2108 15.5665C21.0097 15.5665 20.8106 15.5266 20.6249 15.4491C20.4391 15.3716 20.2703 15.258 20.1281 15.1149C19.986 14.9717 19.8732 14.8017 19.7962 14.6146C19.7193 14.4276 19.6797 14.2271 19.6797 14.0246V5.96238H15.2779V14.0246C15.2779 17.3196 17.9392 20 21.2104 20C24.4817 20 27.1433 17.3196 27.1433 14.0246V5.96238H22.7419V14.0246ZM7.99251 15.2095C8.19563 15.2127 8.39736 15.1752 8.58596 15.0991C8.77455 15.0231 8.94623 14.91 9.09101 14.7665C9.23578 14.623 9.35076 14.4519 9.42924 14.2632C9.50772 14.0745 9.54814 13.872 9.54814 13.6674C9.54814 13.4628 9.50772 13.2603 9.42924 13.0716C9.35076 12.8829 9.23578 12.7118 9.09101 12.5683C8.94623 12.4248 8.77455 12.3117 8.58596 12.2356C8.39736 12.1596 8.19563 12.1221 7.99251 12.1253H4.24566V15.2095H7.99251ZM9.52399 5.97542C9.52349 5.56654 9.36197 5.17455 9.07487 4.88543C8.78777 4.59631 8.39853 4.43366 7.99251 4.43315H4.24566V7.51807H7.99251C8.39856 7.51746 8.78781 7.35472 9.0749 7.06554C9.36199 6.77636 9.52349 6.38433 9.52399 5.97542ZM0 19.6426V0.0203233L7.99251 0C11.2638 0 13.9254 2.68037 13.9254 5.97542C13.9265 7.3837 13.4311 8.74665 12.5276 9.8215C13.4317 10.896 13.9276 12.2588 13.9269 13.6672C13.9269 16.9626 11.2653 19.6426 7.99403 19.6426H0ZM30.9278 0.0203233C30.508 0.0204749 30.0976 0.145992 29.7486 0.381003C29.3996 0.616014 29.1277 0.949965 28.9671 1.34063C28.8066 1.73129 28.7647 2.16112 28.8467 2.57577C28.9287 2.99042 29.131 3.37126 29.4279 3.67014C29.7249 3.96902 30.1032 4.17252 30.515 4.2549C30.9268 4.33728 31.3536 4.29485 31.7414 4.13296C32.1293 3.97108 32.4607 3.69701 32.6939 3.34543C32.9271 2.99384 33.0515 2.58051 33.0514 2.15772C33.0514 1.87695 32.9964 1.59894 32.8897 1.33957C32.7829 1.08019 32.6265 0.844537 32.4293 0.646057C32.2321 0.447576 31.998 0.290159 31.7404 0.182795C31.4827 0.0754307 31.2066 0.0202225 30.9278 0.0203233Z"/>
+                </svg>
+            </a>
+        </div>
+        <nav class="main-nav">
+            <ul class="main-menu type-m">
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Capabilities</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Sustainability &#038;Social Impact</a></li>
+                <li><a href="#">Innovation</a></li>
+                <li class="has-submenu"><a href="#">Careers</a>
+                    <ul class="sub-menu">
+                        <li id="nav-builtworthy">
+                            <a href="#">Built Worthy</a>
+                        </li>
+                        <li id="nav-graduatesandcadets">
+                            <a href="#">Graduates and Cadets</a>
+                        </li>
+                        <li id="nav-jobopportunities">
+                            <a href="#">Job Opportunities</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Latest Thinking</a></li>
+            </ul>
+            <div class="subscribe-btn">
+                <a href="#" class="button">Subscribe</a>
+            </div>
+            <div class="social-nav">
+                <a class="social-link" href="#">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Twitter icon">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.39776 14C10.6807 14 13.5714 9.38189 13.5714 5.38386C13.5714 5.25394 13.5714 5.12402 13.5658 4.99409C14.126 4.5689 14.6134 4.0315 15 3.42323C14.4846 3.66535 13.93 3.8248 13.3473 3.90157C13.9412 3.52953 14.395 2.93307 14.6134 2.22441C14.0588 2.57283 13.4426 2.82087 12.7871 2.95669C12.2605 2.36614 11.5154 2 10.6919 2C9.10644 2 7.81793 3.35827 7.81793 5.02953C7.81793 5.26575 7.84594 5.49606 7.89076 5.72047C5.5042 5.59646 3.38655 4.38583 1.96919 2.55512C1.72269 3.00394 1.58263 3.52362 1.58263 4.07874C1.58263 5.12992 2.09244 6.05709 2.85994 6.60039C2.38936 6.58268 1.94678 6.44685 1.56022 6.22244C1.56022 6.23425 1.56022 6.24606 1.56022 6.26378C1.56022 7.72835 2.55182 8.95669 3.86274 9.23425C3.62185 9.30512 3.36975 9.34055 3.10644 9.34055C2.92157 9.34055 2.7423 9.32283 2.56863 9.2874C2.93277 10.4921 3.9972 11.3661 5.2521 11.3898C4.26611 12.2047 3.02801 12.689 1.68347 12.689C1.45378 12.689 1.22409 12.6772 1 12.6476C2.26611 13.498 3.77871 14 5.39776 14Z" fill="black"/>
+                    </svg>
+                </a>
+                <a class="social-link" href="#">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Linkedin icon">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.6348 13.6337H11.2622V9.91989C11.2622 9.03455 11.2462 7.89589 10.0283 7.89589C8.7945 7.89589 8.60605 8.86122 8.60605 9.85678V13.6337H6.23525V5.99811H8.50915V7.04167H8.54204C8.85939 6.44167 9.63277 5.80878 10.7875 5.80878C13.1912 5.80878 13.6348 7.38922 13.6348 9.44611V13.6337ZM3.55949 4.95552C2.79679 4.95552 2.18164 4.33864 2.18164 3.57864C2.18164 2.81953 2.79679 2.20264 3.55949 2.20264C4.31776 2.20264 4.93468 2.81953 4.93468 3.57864C4.93468 4.33864 4.31776 4.95552 3.55949 4.95552ZM2.37015 13.6337H4.74628V5.99816H2.37015V13.6337Z" fill="black"/>
+                    </svg>
+                </a>
+                <a class="social-link" href="#">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Instagram icon">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.52281 2.03099C6.16305 2.00178 6.36746 1.99487 7.99766 1.99487C9.62784 1.99487 9.83225 2.00178 10.4725 2.03099C11.1114 2.06014 11.5477 2.16161 11.9295 2.31001C12.3243 2.46338 12.659 2.66863 12.9927 3.00233C13.3264 3.33605 13.5317 3.6708 13.6851 4.06552C13.8334 4.44732 13.9349 4.88367 13.9641 5.52257C13.9933 6.1628 14.0002 6.36721 14.0002 7.99742C14.0002 9.62759 13.9933 9.83201 13.9641 10.4722C13.9349 11.1111 13.8334 11.5475 13.6851 11.9293C13.5317 12.324 13.3264 12.6588 12.9927 12.9925C12.659 13.3262 12.3243 13.5314 11.9295 13.6848C11.5477 13.8332 11.1114 13.9347 10.4725 13.9638C9.83225 13.993 9.62784 13.9999 7.99766 13.9999C6.36746 13.9999 6.16305 13.993 5.52281 13.9638C4.88391 13.9347 4.44757 13.8332 4.06576 13.6848C3.67104 13.5314 3.3363 13.3262 3.00257 12.9925C2.66888 12.6588 2.46363 12.324 2.31025 11.9293C2.16186 11.5475 2.06038 11.1111 2.03124 10.4722C2.00203 9.83201 1.99512 9.62759 1.99512 7.99742C1.99512 6.36721 2.00203 6.1628 2.03124 5.52257C2.06038 4.88367 2.16186 4.44732 2.31025 4.06552C2.46363 3.6708 2.66888 3.33605 3.00257 3.00233C3.3363 2.66863 3.67104 2.46338 4.06576 2.31001C4.44757 2.16161 4.88391 2.06014 5.52281 2.03099ZM11.5376 3.31816C11.3261 3.23596 11.0083 3.13817 10.4231 3.11149C9.79012 3.08261 9.60026 3.07649 7.99754 3.07649C6.39478 3.07649 6.20493 3.08261 5.57199 3.11149C4.98675 3.13817 4.66892 3.23596 4.4574 3.31816C4.17722 3.42705 3.97726 3.55713 3.76723 3.76719C3.55717 3.97722 3.4271 4.17718 3.31821 4.45736C3.236 4.66887 3.13822 4.9867 3.11153 5.57194C3.08265 6.20489 3.07653 6.39474 3.07653 7.99749C3.07653 9.60022 3.08265 9.79008 3.11153 10.423C3.13822 11.0083 3.236 11.3261 3.31821 11.5376C3.4271 11.8178 3.55719 12.0177 3.76723 12.2278C3.97726 12.4378 4.17722 12.5679 4.4574 12.6768C4.66892 12.759 4.98675 12.8568 5.57199 12.8835C6.20486 12.9124 6.39466 12.9185 7.99754 12.9185C9.60038 12.9185 9.79021 12.9124 10.4231 12.8835C11.0083 12.8568 11.3261 12.759 11.5376 12.6768C11.8178 12.5679 12.0178 12.4378 12.2278 12.2278C12.4379 12.0177 12.568 11.8178 12.6768 11.5376C12.759 11.3261 12.8568 11.0083 12.8835 10.423C12.9124 9.79008 12.9185 9.60022 12.9185 7.99749C12.9185 6.39474 12.9124 6.20489 12.8835 5.57194C12.8568 4.9867 12.759 4.66887 12.6768 4.45736C12.568 4.17718 12.4379 3.97722 12.2278 3.76719C12.0178 3.55713 11.8178 3.42705 11.5376 3.31816ZM7.9981 4.91506C6.29572 4.91506 4.91571 6.29508 4.91571 7.99745C4.91571 9.6998 6.29572 11.0798 7.9981 11.0798C9.70045 11.0798 11.0805 9.6998 11.0805 7.99745C11.0805 6.29508 9.70045 4.91506 7.9981 4.91506ZM5.99705 7.99746C5.99705 9.10249 6.89286 9.99829 7.99791 9.99829C9.10294 9.99829 9.99874 9.10249 9.99874 7.99746C9.99874 6.89241 9.10294 5.99661 7.99791 5.99661C6.89286 5.99661 5.99705 6.89241 5.99705 7.99746ZM11.202 5.51345C11.5998 5.51345 11.9223 5.19098 11.9223 4.79316C11.9223 4.39535 11.5998 4.07285 11.202 4.07285C10.8042 4.07285 10.4817 4.39535 10.4817 4.79316C10.4817 5.19098 10.8042 5.51345 11.202 5.51345Z" fill="black"/>
+                    </svg>
+                </a>
+                <a class="social-link" href="#">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Facebook icon">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3379 2H2.66207C2.29642 2 2 2.29642 2 2.66207V13.3379C2 13.7036 2.29642 14 2.66207 14H8.41379V9.35931H6.85172V7.54276H8.41379V6.20621C8.41379 4.65655 9.36138 3.81241 10.7434 3.81241C11.2092 3.8114 11.6747 3.83488 12.1379 3.88276V5.50276H11.1862C10.4331 5.50276 10.2862 5.85862 10.2862 6.38414V7.54069H12.0862L11.8524 9.35724H10.2759V14H13.3379C13.7036 14 14 13.7036 14 13.3379V2.66207C14 2.29642 13.7036 2 13.3379 2Z" fill="black"/>
+                    </svg>
+                </a>
+            </div>
+        </nav>
+        <button type="button" class="search-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="10.5" cy="10.5" r="6" stroke="black"/>
+                <path d="M14.5 15L19.5 19.5" stroke="black"/>
+            </svg>
+        </button>
+        <div class="burger-wrapper">
+            <button type="" id="burger-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div id="header-progress"></div> 
+    </header>
+    <form action="#" method="GET" class="search-form">
+        <input type="text" name="s" placeholder="What are you looking for?" class="search-form__field" value="">
+        <button type="button" class="search-form__close-btn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Close icon" class="search-form__close-svg"><path d="M5 5L19.2128 19.2128"></path><path d="M19.2129 5L5.00004 19.2128"></path></svg>
+    </button>
+    </form>
+    <main class="main-content">
+        <section class="hero">
+            <ul class="slider media-carousel">
+                <li class="slider-slide media-carousel__item">
+                    <div class="slide-text">
+                        <h1 class="title">THE NEW WAY FORWARD:<br>
+                            ATLASSIAN</h1>
+                        <a href="https://www.built.com.au/news/built-obayashi-begin-construction-on-landmark-atlassian-central/" class="hero-cta text-link">
+                            <span>Learn more</span> 
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-icon"><path d="M10 6L16 12L10 18"></path></svg>
+                            </a>
+                    </div>
+                    <video class="hero-video tablet-portrait-hide" autoplay="" muted="" loop="" playsinline="" data-src="https://www.built.com.au/app/uploads/2022/08/Atlassian-Flythrough_Website-Banner_35Opacity.mp4" src="https://www.built.com.au/app/uploads/2022/08/Atlassian-Flythrough_Website-Banner_35Opacity.mp4"></video>
+                    <video class="hero-video tablet-portrait-show" autoplay="" muted="" loop="" playsinline="" data-src="https://www.built.com.au/app/uploads/2022/08/Atlassian-Flythrough_Website-Banner_35Opacity.mp4" src="https://www.built.com.au/app/uploads/2022/08/Atlassian-Flythrough_Website-Banner_35Opacity.mp4"></video>
+                </li>
+                <li class="slider-slide media-carousel__item">
+                    <div class="slide-text">
+                        <h1 class="title">THE STEP IS THE MOON:<br>
+                            ATLASSIAN</h1>
+                        <a href="https://www.built.com.au/news/built-obayashi-begin-construction-on-landmark-atlassian-central/" class="hero-cta text-link">
+                            <span>Learn more</span> 
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-icon"><path d="M10 6L16 12L10 18"></path></svg>
+                            </a>
+                    </div>
+                    <video class="hero-video tablet-portrait-hide" autoplay="" muted="" loop="" playsinline="" data-src="https://www.built.com.au/app/uploads/2021/07/m3327_Woods-Bagot_NAB-3-Parramatta-Square-Lift-Timelapse.mp4" src="https://www.built.com.au/app/uploads/2021/07/m3327_Woods-Bagot_NAB-3-Parramatta-Square-Lift-Timelapse.mp4"></video>
+                    <video class="hero-video tablet-portrait-show" autoplay="" muted="" loop="" playsinline="" data-src="https://www.built.com.au/app/uploads/2021/08/m3327_Woods-Bagot_NAB-3-Parramatta-Square-Lift-Timelapse_Portrait_O-1.mp4" src="https://www.built.com.au/app/uploads/2021/08/m3327_Woods-Bagot_NAB-3-Parramatta-Square-Lift-Timelapse_Portrait_O-1.mp4"></video>
+                </li>
+            </ul>
+            <div class="hero-nav">
+                <div class="container-nav">
+                    <button type="button" class="hero-nav-btn hero-nav-btn-prev">
+                        <svg width="46" height="20" viewBox="0 0 46 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Arrow left" class="hero-nav-btn-icon">
+                            <path d="M46 10.0005L1.66157 10.0005"></path>
+                            <path d="M9.11421 19L0.999899 10L9.11421 0.999999"></path>
+                        </svg>
+                    </button>
+                    <button type="button" class="hero-nav-btn hero-nav-btn-next">
+                        <svg width="46" height="20" viewBox="0 0 46 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Arrow right" class="hero-nav-btn-icon">
+                            <path d="M0 10.0005L44.3384 10.0005"></path>
+                            <path d="M36.8858 1L45.0001 10L36.8858 19"></path>
+                        </svg>
+                    </button>
+                    <span class="hero-nav-numbers type-sm type-bold type-white">
+                        <span class="hero-nav-current">
+                            1
+                        </span> 
+                        of 2
+                    </span>
+                </div>
+            </div>
+            <div class="hero-art">
+                <div class="type-white">
+                    <h2 class="type-sm type-bold">LATEST NEWS</h2>
+                    <ul class="article-slider">
+                        <li class="single-article">
+                            <p>
+                                <a href="#">Digital Engineering (DE) has the potential to transform the construction industry. Projects of all sizes and across all sectors can benefit from applying DE principles and tools.</a>
+                            </p>
+                        </li>
+                        <li class="single-article">
+                            <p>
+                                <a href="#">Transitioning to a Circular Economy is a crucial next step to create a sustainable future for our planet.</a>
+                            </p>
+                        </li>
+                        <li class="single-article">
+                            <p>
+                                <a href="#">Built is proud to be the foundation sponsor of ReLove, a registered charity supporting women and children impacted by domestic violence, people experiencing homelessness, Aboriginal and Torres Strait Islander youth and people seeking asylum.</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hero-art-nav">
+                    <button type="button" class="hero-art-nav-btn hero-art-btn-prev">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Chevron left" class="hero-art-btn-icon"><path d="M14 18L8 12L14 6"></path></svg>
+                    </button>
+                    <button type="button" class="hero-art-nav-btn hero-art-btn-next">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Chevron right" class="hero-art-btn-icon"><path d="M10 6L16 12L10 18"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="bg-white section-about">
+            <div class="section-about-title content">
+                <h2 class="type-chronicle">
+                    <u>The New</u>&nbsp;Way Forward
+                </h2>
+            </div>
+            <div class="section-about-text">
+                <p>The scale &amp; certainty of a tier one construction company, with the culture &amp; agility to stay ahead of change.</p>
+                <a href="#" class="text-link text-link-bold">
+                    <span>About us</span> 
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Chevron right icon" class="text-link-icon"><path d="M10 6L16 12L10 18"></path></svg>
+                </a>
+            </div>
+        </section>
+        <section class="section-media">
+            <div class="btn-container-relative">
+                <button type="button" class="section-media-video-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Play icon" class="section-media-video-btn-svg"><path d="M22.1543 12L5.53891 22.3923L5.53891 1.60769L22.1543 12Z"></path></svg>
+                </button>
+            </div>
+            <div class="section-media-container">
+                <video class="section-media-video" autoplay="" muted="" loop="" playsinline="" data-src="https://www.built.com.au/app/uploads/2021/09/Built_TheNewWayForward_WebLoop.mp4" src="https://www.built.com.au/app/uploads/2021/09/Built_TheNewWayForward_WebLoop.mp4"></video>
+            </div>
+            <div class="overlay overlay-video">
+                <div class="overlay-wrap">
+                <button type="button" class="overlay-close"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Close icon" class="overlay-close-icon"><path d="M5 5L19.2128 19.2128"></path><path d="M19.2129 5L5.00004 19.2128"></path></svg>
+                </button>
+                <div class="js-reframe" style="position: relative; width: 100%; padding-top: 56.25%;"><iframe data-src="https://player.vimeo.com/video/746405929" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px;"></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="section-about-us section-highlight">
+            <div class="grid section-heading-rotate">
+                <div class="col sm-col-6 lg-col-12 sm-pd-btm-05 lg-pd-btm-3">
+                    <div class="btn-pill type-bold">About Us</div>
+                </div>
+                <div class="col sm-col-6 sm-pd-btm-05 heading-wrap">
+                    <h3 class="type-p type-bold">New Way Forward</h3>
+                </div>
+                <div class="col grid-img-1">
+                    <div class="lazy-container">
+                        <div class="img-wrap">
+                            <img class="" src="https://www.built.com.au/app/uploads/2021/07/300309_N175_medium-1200x801.jpeg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col grid-img-2">
+                    <div class="lazy-container">
+                        <div class="img-wrap">
+                            <img class="" src="https://www.built.com.au/app/uploads/2021/12/GPO_BHP_Stairs-1200x800.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col sm-col-6 lg-col-10 lg-col-offset-1 highlight-wrap">
+                    <h2 class="type-h2">Our industry is critical to how 
+                        <strong class="text-highlight">
+                            <span class="text-highlight-bg"></span>
+                            <span class="text-highlight-text">cities evolve,</span>
+                        </strong> so as a business we have a responsibility to consider the 
+                        <strong class="text-highlight">
+                            <span class="text-highlight-bg"></span>
+                            <span class="text-highlight-text"">impact of everything we build.</span>
+                        </strong>
+                    </h2>
+                </div>
+                <div class="col grid-img-3">
+                    <div class="lazy-container">
+                        <div class="img-wrap">
+                            <img class="" src="https://www.built.com.au/app/uploads/2021/07/SubStationNo164_Facade1_2249x1500-1200x800.jpg">
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+        <section class="section-scroll-container1">
+            <div class="section-scroll">
+                <div class="section-scroll-element">
+                    <h2 class="scroll-flex type-white">
+                        <span class="type-chronicle section-scroll-element-fixed">To:</span>
+                        <ul class="section-scroll-element-dynamic-wrapper1">
+                            <li class="section-scroll-element-dynamic1">
+                                <span class="type-medium type-orange section-scroll-element-dynamic-word">think harder</span>
+                            </li>
+                            <li class="section-scroll-element-dynamic1">
+                                <span class="type-medium type-orange section-scroll-element-dynamic-word">act smarter</span>
+                            </li>
+                            <li class="section-scroll-element-dynamic1">
+                                <span class="type-medium type-orange section-scroll-element-dynamic-word">do more</span>
+                            </li>
+                        </ul>
+                    </h2>
+                    <span class="scroll-indicator section-scroll-indicator type-white type-bold type-sm">SCROLL</span>
+                </div>
+            </div>
+        </section>
+        <section class="section-dna section-highlight">
+            <div class="grid section-heading-rotate">
+                <div class="col sm-col-6 sm-pd-btm-05 heading-wrap second-img-grid">
+                    <h3 class="type-p type-bold">New Way Forward</h3>
+                </div>
+                <div class="col grid-img-1">
+                    <div class="lazy-container">
+                        <div class="img-wrap">
+                            <img class="" src="https://www.built.com.au/app/uploads/2022/08/TMP_ATLSN_N4-1200x1060.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col grid-img-4">
+                    <div class="lazy-container">
+                        <div class="img-wrap">
+                            <img class="" src="https://www.built.com.au/app/uploads/2022/06/BrandPhotography_100522_01973-1200x800.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col sm-col-6 lg-col-8 lg-col-offset-1 highlight-wrap">
+                    <h2 class="type-h2">That’s why we never stop pushing ourselves.
+                        <strong class="text-highlight">
+                            <span class="text-highlight-bg"></span>
+                            <span class="text-highlight-text">It's in our DNA.</span>
+                        </strong>
+                    </h2>
+                </div>
+                <div class="col grid-img-3 img-6">
+                    <div class="lazy-container">
+                        <div class="img-wrap">
+                            <img class="" src="https://www.built.com.au/app/uploads/2021/10/BrandPhotography_NSW_Tim_Joel_4PS_4000x2667-1200x800.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-capabilities">
+            <div class="grid">
+                <div class="col sm-col-6 lg-col-12 sm-pd-btm-1">
+                    <div class="btn-pill type-bold">Capabilities</div>
+                </div>
+                <div class="col sm-col-6 sm-pd-btm-1">
+                    <h3 class="type-p type-normal">The New Way Forward</h3>
+                </div>
+                <div class="col sm-col-6 lg-col-5 lg-col-start-8">
+                    <hr class="mb-15">
+                    <h3 class="type-chronicle mb-15">
+                        At Built, we treat every project as an opportunity to roll up our sleeves, to solve complex challenges and get the job done.
+                    </h3>
+                    <p class="type-p mb-15">
+                        Because when you work with us, you work with a group of leaders on a mission to improve the way the world is built.
+                    </p>
+                    <a href="#" class="text-link text-link-bold">
+                        <span>Capabilities</span> 
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Chevron right icon" class="text-link-icon"><path d="M10 6L16 12L10 18"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section-scroll-container2">
+            <div class="section-scroll">
+                <div class="section-scroll-element">
+                    <h2 class=" type-white">
+                        <span class="type-chronicle section-scroll-element-fixed">To:</span>
+                        <ul class="section-scroll-element-dynamic-wrapper2 word2">
+                            <li class="section-scroll-element-dynamic2">
+                                <span class="type-medium type-orange section-scroll-element-dynamic-word">advance the industry forward.</span>
+                            </li>
+                            <li class="section-scroll-element-dynamic2">
+                                <span class="type-medium type-orange section-scroll-element-dynamic-word">create foundations for the future.</span>
+                            </li>
+                            <li class="section-scroll-element-dynamic2">
+                                <span class="type-medium type-orange section-scroll-element-dynamic-word">forge new pathways.</span>
+                            </li>
+                        </ul>
+                    </h2>
+                    <span class="scroll-indicator section-scroll-indicator type-white type-bold type-sm">SCROLL</span>
+                </div>
+            </div>
+        </section>
+        <section class="section-projects">
+            <div class="grid">
+                <div class="col sm-col-6 lg-col-12 lg-pd-btm-15 sm-pd-btm-1">
+                    <div class="btn-pill type-bold">Project case studio</div>
+                </div>
+                <div class="col sm-col-6 lg-col-5 content">
+                    <h2 class="type-chronicle mb-15">
+                        <u>Projects that push</u>
+                        the world forward
+                    </h2>
+                    <p class="type-p">
+                        Explore the 
+                        <strong>
+                            <a href="#">latest</a>
+                        </strong>
+                        from the Built team.
+                    </p>
+                </div>
+                <div class="col sm-col-6 lg-col-5 lg-col-start-8 sm-pd-top-10">
+                    <div class="content">
+                        <p class="type-p">
+                            From the moment we started, in every market we’ve entered, in every job we’ve undertaken, we’ve aimed to disrupt industry norms by continually being better every day.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-media-full">
+            <h4 class="title-over-video sm-mb-5 lg-mb-10"><a href="https://www.built.com.au/news/dismantling-the-smoke-and-mirrors-around-digital-engineering/" class="type-white underline">Read The Report</a></h4>
+            <div class="section-media-full-video-container">
+                <video class="section-media-full-video tablet-portrait-hide" autoplay="" muted="" loop="" playsinline="" data-src="https://www.built.com.au/app/uploads/2022/09/Digital-Engineering-Animation_Horizontal-1.mp4" src="https://www.built.com.au/app/uploads/2022/09/Digital-Engineering-Animation_Horizontal-1.mp4"></video>
+                <video class="section-media-full-video tablet-portrait-show" autoplay="" muted="" loop="" playsinline="" data-src="https://www.built.com.au/app/uploads/2022/09/Digital-Engineering-Animation_Portrait-1.mp4" src="https://www.built.com.au/app/uploads/2022/09/Digital-Engineering-Animation_Portrait-1.mp4"></video>
+            </div>
+        </section>
+        <section class="section-case-studies">
+            <div class="grid">
+                <div class="col sm-col-6 lg-col-12 grid-in-grid">
+                    <p class="type-p sm-mb-3 tablet-portrait-show col sm-col-6">
+                        Our industry is critical to how cities evolve, so as a business we have a responsibility to consider the impact of everything we touch.
+                    </p>
+                    <a href="#" class="img-hover-hidden display-block sm-col-6 col lg-col-6">
+                        <img class="img-hover" src="https://www.built.com.au/app/uploads/2021/07/Atlassian_Street-View-Render-1146x1200.jpg">
+                    </a>
+                    <div class="sm-mt-05 tablet-portrait-show col sm-col-6">
+                        <span class="type-sm type-grey-3 type-h6 type-bold sm-mt-05">NSW</span>
+                        <h3 class="type-bold type-h6">
+                            <a href="#">Atlassian Central</a>
+                        </h3>
+                        <ul class="section-case-studies-tags">
+                            <li class="section-case-studies-tag">
+                                <a href="#" class="pill pill-link pill-slim type-sm type-bold">Construction</a>
+                            </li>
+                            <li class="section-case-studies-tag">
+                                <a href="#" class="pill pill-link pill-slim type-sm type-bold">Commercial</a>
+                            </li>
+                        </ul>
+                        <a href="#" class="display-ib sm-mg-top-1">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Arrow right" class="section-case-studies-cta">
+                                <path d="M2.18164 11.4546L22.2816 11.4546"></path>
+                                <path d="M16.2197 5.45459L22.2197 11.4546L16.2197 17.4546"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="col tablet-portrait-hide lg-col-4 col-flex">
+                        <p class="type-p">
+                            Our industry is critical to how cities evolve, so as a business we have a responsibility to consider the impact of everything we touch.
+                        </p>
+                        <div class="sm-mt-05">
+                            <span class="type-sm type-grey-3 type-h6 type-bold sm-mt-05">NSW</span>
+                            <h3 class="type-bold type-h6">
+                                <a href="#">Atlassian Central</a>
+                            </h3>
+                            <ul class="section-case-studies-tags">
+                                <li class="section-case-studies-tag">
+                                    <a href="#" class="pill pill-link pill-slim type-sm type-bold">Construction</a>
+                                </li>
+                                <li class="section-case-studies-tag">
+                                    <a href="#" class="pill pill-link pill-slim type-sm type-bold">Commercial</a>
+                                </li>
+                            </ul>
+                            <a href="#" class="display-ib sm-mg-top-1 lg-mg-btm-25 pill-img">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Arrow right" class="section-case-studies-cta">
+                                    <path d="M2.18164 11.4546L22.2816 11.4546"></path>
+                                    <path d="M16.2197 5.45459L22.2197 11.4546L16.2197 17.4546"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col sm-col-6 sm-pd-top-15 lg-col-3">
+                    <a href="#" class="img-hover-hidden display-block">
+                        <img class="img-hover" src="https://www.built.com.au/app/uploads/2021/12/210914_BUILT_185Clarence_0604-960x1200.jpg">
+                    </a>
+                    <div class="sm-mt-05">
+                        <span class="type-sm type-grey-3 type-h6 type-bold sm-mt-05">NSW</span>
+                        <h3 class="type-bold type-h6">
+                            <a href="#">Atlassian Central</a>
+                        </h3>
+                        <ul class="section-case-studies-tags">
+                            <li class="section-case-studies-tag">
+                                <a href="#" class="pill pill-link pill-slim type-sm type-bold">Construction</a>
+                            </li>
+                            <li class="section-case-studies-tag">
+                                <a href="#" class="pill pill-link pill-slim type-sm type-bold">Development</a>
+                            </li>
+                            <li class="section-case-studies-tag">
+                                <a href="#" class="pill pill-link pill-slim type-sm type-bold">Refurbishment</a>
+                            </li>
+                            <li class="section-case-studies-tag">
+                                <a href="#" class="pill pill-link pill-slim type-sm type-bold">Small Works</a>
+                            </li>
+                            <li class="section-case-studies-tag">
+                                <a href="#" class="pill pill-link pill-slim type-sm type-bold">Commercial</a>
+                            </li>
+                        </ul>
+                        <a href="#" class="display-ib sm-mg-top-1">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Arrow right" class="section-case-studies-cta">
+                                <path d="M2.18164 11.4546L22.2816 11.4546"></path>
+                                <path d="M16.2197 5.45459L22.2197 11.4546L16.2197 17.4546"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col sm-col-6 sm-pd-top-15 lg-col-6 lg-col-offset-6">
+                    <a href="#" class="img-hover-hidden display-block">
+                        <img class="img-hover" src="https://www.built.com.au/app/uploads/2021/06/60CremorneSt_1-1200x900.jpg">
+                    </a>
+                    <div class="sm-mt-05">
+                        <span class="type-sm type-grey-3 type-h6 type-bold sm-mt-05">NSW</span>
+                        <h3 class="type-bold type-h6">
+                            <a href="#">Atlassian Central</a>
+                        </h3>
+                        <ul class="section-case-studies-tags">
+                            <li class="section-case-studies-tag">
+                                <a href="#" class="pill pill-link pill-slim type-sm type-bold">Construction</a>
+                            </li>
+                            <li class="section-case-studies-tag">
+                                <a href="#" class="pill pill-link pill-slim type-sm type-bold">Commercial</a>
+                            </li>
+                        </ul>
+                        <a href="#" class="display-ib sm-mg-top-1">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Arrow right" class="section-case-studies-cta">
+                                <path d="M2.18164 11.4546L22.2816 11.4546"></path>
+                                <path d="M16.2197 5.45459L22.2197 11.4546L16.2197 17.4546"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col sm-col-6 sm-pd-top-15 lg-col-6">
+                    <a href="#" class="img-hover-hidden display-block">
+                        <img class="img-hover" src="https://www.built.com.au/app/uploads/2022/09/68-Parramatta-Square_PC_11-1200x899.jpg">
+                    </a>
+                    <div class="sm-mt-05">
+                        <span class="type-sm type-grey-3 type-h6 type-bold sm-mt-05">NSW</span>
+                        <h3 class="type-bold type-h6">
+                            <a href="#">Atlassian Central</a>
+                        </h3>
+                        <ul class="section-case-studies-tags">
+                            <li class="section-case-studies-tag">
+                                <a href="#" class="pill pill-link pill-slim type-sm type-bold">Construction</a>
+                            </li>
+                            <li class="section-case-studies-tag">
+                                <a href="#" class="pill pill-link pill-slim type-sm type-bold">Commercial</a>
+                            </li>
+                        </ul>
+                        <a href="#" class="display-ib sm-mg-top-1">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Arrow right" class="section-case-studies-cta">
+                                <path d="M2.18164 11.4546L22.2816 11.4546"></path>
+                                <path d="M16.2197 5.45459L22.2197 11.4546L16.2197 17.4546"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col sm-col-6 sm-pd-top-15 lg-col-3 lg-col-offset-9">
+                    <a href="#" class="img-hover-hidden display-block">
+                        <img class="img-hover" src="https://www.built.com.au/app/uploads/2021/07/SLV_QueensHall_2-800x1200.jpg">
+                    </a>
+                    <div class="sm-mt-05">
+                        <span class="type-sm type-grey-3 type-h6 type-bold sm-mt-05">NSW</span>
+                        <h3 class="type-bold type-h6">
+                            <a href="#">Atlassian Central</a>
+                        </h3>
+                        <ul class="section-case-studies-tags">
+                            <li class="section-case-studies-tag">
+                                <a href="#" class="pill pill-link pill-slim type-sm type-bold">Fitout</a>
+                            </li>
+                            <li class="section-case-studies-tag">
+                                <a href="#" class="pill pill-link pill-slim type-sm type-bold">Refurbishment</a>
+                            </li>
+                        </ul>
+                        <a href="#" class="display-ib sm-mg-top-1">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Arrow right" class="section-case-studies-cta">
+                                <path d="M2.18164 11.4546L22.2816 11.4546"></path>
+                                <path d="M16.2197 5.45459L22.2197 11.4546L16.2197 17.4546"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col sm-col-6 sm-pd-top-15 lg-col-12 grid-in-grid">
+                    <a href="#" class="img-hover-hidden display-block grid-order-2 col sm-col-6 lg-col-6">
+                        <img class="img-hover" src="https://www.built.com.au/app/uploads/2021/07/700111_N103_medium-1200x803.jpeg">
                     </a>
                     <div class="sm-mt-05 col lg-col-6 sm-col-6 desk-mt-auto">
                         <span class="type-sm type-grey-3 type-h6 type-bold sm-mt-05">NSW</span>
@@ -613,7 +613,7 @@
                 <div class="col sm-col-6 lg-col-12 lg-pd-btm-3">
                     <span class="btn-pill type-bold sm-pd-btm-1">Latest Thinking</span>
                 </div>
-                <div class="img-hover-hidden col sm-col-6 lg-col-6 content section-article sm-mg-top-1">
+                <div class="col sm-col-6 lg-col-6 content section-article sm-mg-top-1">
                     <h2 class="type-chronicle mb-15">
                         <u>Our</u>
                         Insights
@@ -621,7 +621,7 @@
                     <p class="type-p sm-mg-btm-3 lg-mg-btm-9">
                         Advancing the industry forward and creating the foundations for the future
                     </p>
-                    <a href="#" class="article sm-mg-btm-1 lg-mg-btm-0">
+                    <a href="#" class="article2 sm-mg-btm-1 lg-mg-btm-0">
                         <div class="article-wrapper">
                             <div class="article-title">
                                 <h3 class="type-h4 type-medium">Start here to achieve Net Zero for your next development</h3>
@@ -633,7 +633,7 @@
                         <img class="img-hover" src="https://www.built.com.au/app/uploads/2022/03/210914_BUILT_185Clarence_2013-1200x899.jpg">
                     </a>
                 </div>
-                <a href="#" class="img-hover-hidden col sm-col-6 lg-col-6 article sm-mg-top-1">
+                <a href="#" class="img-hover-hidden fit-content col sm-col-6 lg-col-6 article sm-mg-top-1">
                     <div class="article-wrapper">
                         <div class="article-title">
                             <h3 class="type-h4 type-medium">Dismantling the smoke and mirrors around Digital Engineering</h3>
@@ -666,30 +666,30 @@
                     </svg>
                 </div>
                 <div class="img-hover-hidden col lg-col-3 tablet-portrait-hide">
-                    <a href="https://www.instagram.com/reel/CpMegVagciE/" target="_blank" class="section-instagram__link">
-                        <img class="img-hover" data-src="https://scontent.cdninstagram.com/v/t51.29350-15/333549769_1229138477808647_3204129801781746711_n.jpg?_nc_cat=100&amp;ccb=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=r7z-2srrmDwAX_gKdHP&amp;_nc_ht=scontent.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfClORm0RmFlu9cbQVhvcXp0RwDKxYBU83X_c9FT6Qzmag&amp;oe=6407570B" class="lazyimage 										 section-instagram__image lazyloaded" alt="" src="https://scontent.cdninstagram.com/v/t51.29350-15/333549769_1229138477808647_3204129801781746711_n.jpg?_nc_cat=100&amp;ccb=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=r7z-2srrmDwAX_gKdHP&amp;_nc_ht=scontent.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfClORm0RmFlu9cbQVhvcXp0RwDKxYBU83X_c9FT6Qzmag&amp;oe=6407570B">
+                    <a href="https://www.instagram.com/p/CpuAG3sv2SW/" target="_blank" class="section-instagram__link">
+                        <img class="img-hover" src="https://scontent-sin6-4.cdninstagram.com/v/t51.29350-15/334684459_740276081140641_509824064740053691_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=xbjQTgBEZs0AX_jZBf-&_nc_ht=scontent-sin6-4.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AfAyYUK2J7sfpsG0VupF7eMZqAgHH1BCDNWjSBxs3b98nQ&oe=6413BA95" class="lazyimage 										 section-instagram__image lazyloaded" alt="" src="https://scontent.cdninstagram.com/v/t51.29350-15/333549769_1229138477808647_3204129801781746711_n.jpg?_nc_cat=100&amp;ccb=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=r7z-2srrmDwAX_gKdHP&amp;_nc_ht=scontent.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfClORm0RmFlu9cbQVhvcXp0RwDKxYBU83X_c9FT6Qzmag&amp;oe=6407570B">
                         </a>
                 </div>
                 <div class="img-hover-hidden col lg-col-3 tablet-portrait-hide">
-                    <a href="https://www.instagram.com/p/Co_PVtMvabP/" target="_blank" class="section-instagram__link">
-                        <img class="img-hover" data-src="https://scontent.cdninstagram.com/v/t51.29350-15/332991569_610445427565567_8243444123004498090_n.jpg?_nc_cat=103&amp;ccb=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=F7K2D2bRuEwAX_3QhOG&amp;_nc_ht=scontent.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfDIELxcLLeyOVuMCZcw-v1Cs-yhaADNDyZuCY_GUOObwA&amp;oe=640735C1" class="lazyimage 										 section-instagram__image lazyloaded" alt="" src="https://scontent.cdninstagram.com/v/t51.29350-15/332991569_610445427565567_8243444123004498090_n.jpg?_nc_cat=103&amp;ccb=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=F7K2D2bRuEwAX_3QhOG&amp;_nc_ht=scontent.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfDIELxcLLeyOVuMCZcw-v1Cs-yhaADNDyZuCY_GUOObwA&amp;oe=640735C1">
+                    <a href="https://www.instagram.com/reel/CpjxT71ABDu/" target="_blank" class="section-instagram__link">
+                        <img class="img-hover" src="https://scontent-sin6-2.cdninstagram.com/v/t51.29350-15/334553335_218949310662629_6706526440846785849_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=oJnUri3NFVcAX8TIdx4&_nc_ht=scontent-sin6-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AfAp1LxQNSxNOtufVGaTKSPFLd_9o-y3GMz1RghDXSWXGg&oe=64139668">
                     </a>
                 </div>
                 <div class="img-hover-hidden col lg-col-3 tablet-portrait-hide">
-                    <a href="https://www.instagram.com/reel/CotXSQXAOmu/" target="_blank" class="section-instagram__link">
-                        <img class="img-hover" data-src="https://scontent.cdninstagram.com/v/t51.29350-15/331162486_740322147504443_8144617951426337128_n.jpg?_nc_cat=111&amp;ccb=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=1ktiPtv5W7YAX_tuBGF&amp;_nc_ht=scontent.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfB2GRh8McQMwaPoGw0dV6HeQeAxjHiNUxV94dUkuJYadA&amp;oe=64068A7C" class="lazyimage 										 section-instagram__image lazyloaded" alt="" src="https://scontent.cdninstagram.com/v/t51.29350-15/331162486_740322147504443_8144617951426337128_n.jpg?_nc_cat=111&amp;ccb=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=1ktiPtv5W7YAX_tuBGF&amp;_nc_ht=scontent.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfB2GRh8McQMwaPoGw0dV6HeQeAxjHiNUxV94dUkuJYadA&amp;oe=64068A7C">
+                    <a href="https://www.instagram.com/reel/CphCMOngJpo/" target="_blank" class="section-instagram__link">
+                        <img class="img-hover" src="https://scontent-sin6-1.cdninstagram.com/v/t51.29350-15/332266434_523082656637186_4114733209283673858_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=05yELHfutcMAX-AwbmY&_nc_ht=scontent-sin6-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AfAD4fouOaIbVgujFj3W1kY7Gv6-a5v6Ziqp7AoBRvsjdA&oe=64137569">
                     </a>
                 </div>
                 <div class="col sm-col-6 tablet-portrait-show">
                     <div class="section-instagram-slider" tabindex="0">
-                        <a href="https://www.instagram.com/reel/CpMegVagciE/" target="_blank" class="section-instagram-slide">
-                            <img data-src="https://scontent-hkt1-2.cdninstagram.com/v/t51.29350-15/333549769_1229138477808647_3204129801781746711_n.jpg?_nc_cat=100&amp;ccb=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=r7z-2srrmDwAX_gKdHP&amp;_nc_ht=scontent-hkt1-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfCUHAj9D_10hvUdoiUbi_7voIn6Y7IBGVzLMYWUNNdcwg&amp;oe=6407570B" class="lazyimage 										 section-instagram__image ls-is-cached lazyloaded" alt="" src="https://scontent-hkt1-2.cdninstagram.com/v/t51.29350-15/333549769_1229138477808647_3204129801781746711_n.jpg?_nc_cat=100&amp;ccb=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=r7z-2srrmDwAX_gKdHP&amp;_nc_ht=scontent-hkt1-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfCUHAj9D_10hvUdoiUbi_7voIn6Y7IBGVzLMYWUNNdcwg&amp;oe=6407570B">
+                        <a href="https://www.instagram.com/p/CpuAG3sv2SW/" target="_blank" class="section-instagram-slide">
+                            <img src="https://scontent-sin6-4.cdninstagram.com/v/t51.29350-15/334684459_740276081140641_509824064740053691_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=xbjQTgBEZs0AX_jZBf-&_nc_ht=scontent-sin6-4.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AfAyYUK2J7sfpsG0VupF7eMZqAgHH1BCDNWjSBxs3b98nQ&oe=6413BA95">
                         </a>
-                        <a href="https://www.instagram.com/p/Co_PVtMvabP/" target="_blank" class="section-instagram-slide">
-                            <img data-src="https://scontent-hkt1-2.cdninstagram.com/v/t51.29350-15/332991569_610445427565567_8243444123004498090_n.jpg?_nc_cat=103&amp;ccb=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=P8iw0u1HIxsAX_otVjL&amp;_nc_ht=scontent-hkt1-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfC0H1xARGLIH0z5K5URvPR_YiCAY78HoDFI2FT87sK_-g&amp;oe=640735C1" class="lazyimage 										 section-instagram__image ls-is-cached lazyloaded" alt="" src="https://scontent-hkt1-2.cdninstagram.com/v/t51.29350-15/332991569_610445427565567_8243444123004498090_n.jpg?_nc_cat=103&amp;ccb=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=P8iw0u1HIxsAX_otVjL&amp;_nc_ht=scontent-hkt1-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfC0H1xARGLIH0z5K5URvPR_YiCAY78HoDFI2FT87sK_-g&amp;oe=640735C1">
+                        <a href="hhttps://www.instagram.com/reel/CpjxT71ABDu/" target="_blank" class="section-instagram-slide">
+                            <img src="https://scontent-sin6-2.cdninstagram.com/v/t51.29350-15/334553335_218949310662629_6706526440846785849_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=oJnUri3NFVcAX8TIdx4&_nc_ht=scontent-sin6-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AfAp1LxQNSxNOtufVGaTKSPFLd_9o-y3GMz1RghDXSWXGg&oe=64139668">
                         </a>
-                        <a href="https://www.instagram.com/reel/CotXSQXAOmu/" target="_blank" class="section-instagram-slide">
-                            <img data-src="https://scontent-hkt1-1.cdninstagram.com/v/t51.29350-15/331162486_740322147504443_8144617951426337128_n.jpg?_nc_cat=111&amp;ccb=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=1ktiPtv5W7YAX_tuBGF&amp;_nc_ht=scontent-hkt1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfBuIkdtM6JNQdGnBjBaD4yRxOLMavLZ2hazT6ZstUP4cg&amp;oe=64068A7C" class="lazyimage 										 section-instagram__image ls-is-cached lazyloaded" alt="" src="https://scontent-hkt1-1.cdninstagram.com/v/t51.29350-15/331162486_740322147504443_8144617951426337128_n.jpg?_nc_cat=111&amp;ccb=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=1ktiPtv5W7YAX_tuBGF&amp;_nc_ht=scontent-hkt1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfBuIkdtM6JNQdGnBjBaD4yRxOLMavLZ2hazT6ZstUP4cg&amp;oe=64068A7C">
+                        <a href="https://www.instagram.com/reel/CphCMOngJpo/" target="_blank" class="section-instagram-slide">
+                            <img src="https://scontent-sin6-1.cdninstagram.com/v/t51.29350-15/332266434_523082656637186_4114733209283673858_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=05yELHfutcMAX-AwbmY&_nc_ht=scontent-sin6-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AfAD4fouOaIbVgujFj3W1kY7Gv6-a5v6Ziqp7AoBRvsjdA&oe=64137569">
                         </a>
                     </div>
                 </div>
